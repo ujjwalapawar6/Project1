@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite starts]]>
+    </line>
+    <line>
+      <![CDATA[Test Starts]]>
+    </line>
+    <line>
+      <![CDATA[Test class starts]]>
+    </line>
+    <line>
+      <![CDATA[Method starts]]>
+    </line>
+    <line>
+      <![CDATA[Test Method1]]>
+    </line>
+    <line>
+      <![CDATA[Method Ends]]>
+    </line>
+    <line>
+      <![CDATA[Test Class ends]]>
+    </line>
+    <line>
+      <![CDATA[Test Ends]]>
+    </line>
+    <line>
+      <![CDATA[Suite Ends]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="129" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="129" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:54Z">
+      <class name="script.Test1">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:script.Test1@6ee52dcd]" name="testBeforeSuite" is-config="true" duration-ms="44" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Suite starts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:script.Test1@6ee52dcd]" name="testBeforeTest" is-config="true" duration-ms="5" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Starts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="testBeforeClass()[pri:0, instance:script.Test1@6ee52dcd]" name="testBeforeClass" is-config="true" duration-ms="0" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class starts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testBeforeClass -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:script.Test1@6ee52dcd]" name="testBeforeMethod" is-config="true" duration-ms="1" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method starts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:script.Test1@6ee52dcd]" name="test1" duration-ms="17" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:script.Test1@6ee52dcd]" name="testAfterMethod" is-config="true" duration-ms="11" started-at="2018-08-11T10:22:53Z" finished-at="2018-08-11T10:22:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Ends]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testAfterClass()[pri:0, instance:script.Test1@6ee52dcd]" name="testAfterClass" is-config="true" duration-ms="3" started-at="2018-08-11T10:22:54Z" finished-at="2018-08-11T10:22:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Class ends]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAfterClass -->
+        <test-method status="PASS" signature="testAfterTest()[pri:0, instance:script.Test1@6ee52dcd]" name="testAfterTest" is-config="true" duration-ms="1" started-at="2018-08-11T10:22:54Z" finished-at="2018-08-11T10:22:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Ends]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAfterTest -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:script.Test1@6ee52dcd]" name="testAfterSuite" is-config="true" duration-ms="2" started-at="2018-08-11T10:22:54Z" finished-at="2018-08-11T10:22:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Suite Ends]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- script.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
