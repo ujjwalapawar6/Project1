@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,11 +24,11 @@ public void testGoogle() {
 	WebElement srchTxtBx=driver.findElement(By.name("q"));
 	
 	//JavaScript Type
-	((JavaScriptExecutor)driver).executeScript("arguments[0].value='"+"Selenium"+"'",srchTxtBx);
+	((JavascriptExecutor)driver).executeScript("arguments[0].value='"+"Selenium"+"'",srchTxtBx);
 	WebElement srchBtn=driver.findElement(By.name("btnk"));
 	
 	//JavaScript Click
-	((JavaScriptExecutor)driver).executeScript("arguments[0].click();",srchBtn);
+	((JavascriptExecutor)driver).executeScript("arguments[0].click();",srchBtn);
 	
 }
 	
